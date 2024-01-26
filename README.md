@@ -10,10 +10,10 @@ git status
 git --help
 pwd, cd, ls, rm
 
-# adding new files to let it track
-after making new files, we need to add them only then we can commit
+# adding new files to let it track and updating unmodified files
+after making new files and making changes in unmodified files, we need to add them only then we can commit
 
-git add . (will add all the new files) or git add <file name>
+git add . (will add all the new files and update all the existing files) or git add <file name>
 
 # to commit the changes 
 after doing all the changes in the unmodified files, these files lie under the category of "modified files"
